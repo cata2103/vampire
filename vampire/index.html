@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<!-- Follow these instructions, please! -->
+<div style="background-image: url('/assets/imgdelahome.webp'); background-repeat: no-repeat; background-size: cover; min-height: 120vh;min-width: 100vw">
+    <div class="home-page">
+        <div class="row">
+            <div class="col-3 col-md-2 d-none d-md-block img-container" style="margin-left: 15px; margin-right: 15px">
+                <img src="assets/logo.png" alt="Your image description" class="img-fluid mb-4"
+                     style="max-width: 150px;">
+            </div>
+            <div class="col-6 col-md-2 buttons">
+                <button type="button" class="btn btn-primary text-white custom-btn">
+                    <nav>
+                        <a href="informacion.html" style="text-decoration: none; color: inherit">
+                            Informacion
+                        </a>
+                    </nav>
+                </button>
+            </div>
+            <div class="col-6 col-md-2 buttons">
+                <button type="button" class="btn btn-primary custom-btn">Personajes</button>
+            </div>
+            <div class="col-6 col-md-2 buttons">
+                <button type="button" class="btn btn-primary custom-btn">Escenas</button>
+            </div>
+            <div class="col-6 col-md-2 buttons">
+                <button type="button" class="btn btn-primary custom-btn">Ships</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="carouselExample" class="carousel slide" style="margin-top: 50px">
+        <div class="carousel-inner" style="display: flex">
+            <div class="carousel-item active">
+                <div class="embed-responsive embed-responsive-16by9 video-carousel"
+                     style="display: flex; justify-content: center">
+                    <iframe class='video-iframe' src="https://www.youtube.com/embed/BmVmhjjkN4E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9 video-carousel"
+                     style="display: flex; justify-content: center">
+                    <iframe class='video-iframe' src="https://www.youtube.com/embed/BbV5Rh69uLo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">The Vampire Diaries (Crónicas Vampíricas en España y El Diario de los Vampiros o
+                    Diarios de
+                    Vampiros en Latinoamérica) es una serie de televisión estadounidense de género dramático, creada por
+                    Kevin
+                    Williamson y basada en la saga de L. J. Smith. La trama gira en torno a la vida de Elena, sus amigos
+                    y
+                    otros
+                    habitantes de una pequeña ciudad de Virginia, llamada Mystic Falls. Elena Gilbert (Nina Dobrev), es
+                    una
+                    adolescente de la cual se enamoran dos hermanos vampiros, Stefan (Paul Wesley), y su hermano Damon
+                    Salvatore
+                    (Ian Somerhalder). Elena es idéntica a Katherine, la mujer que los convirtió en vampiros y que jugó
+                    con
+                    el
+                    amor que ambos sentían por ella.
+                    The Vampire Diaries fue estrenada en el canal The CW el 10 de septiembre de 2009, y el final de
+                    temporada
+                    fue emitido el 13 de mayo de 2010. El 11 de enero de 2015, la serie fue renovada para una séptima
+                    temporada,
+                    que fue estrenada el 8 de octubre de 2015.
+                    Luego filmaron para una octava y última temporada el 11 de marzo de 2016, [la cual finalizó el 10 de
+                    marzo
+                    de 2017 con el episodio I Was Feeling Epic.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+
+    body {
+        background-image: radial-gradient(circle, #000000, #3533cd);
+        /* Adjust the gradient direction, colors and other properties as desired */
+        min-height: 100vh;
+    }
+
+</style>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+<!--            TODO copiar el nav para los otros 4, crear el archivo de cada uno-->
+<!--            TODO pintar de rojo el boton en el que estas-->
