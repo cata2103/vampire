@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--    <link rel="stylesheet" href="informacion.css">-->
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<!-- Follow these instructions, please! -->
+<div>
+    <div style="background-image: url('/vampire/assets/informacion/fondo.webp'); background-repeat: no-repeat; background-size: cover; min-height: 120vh;min-width: 100vw">
+        <div class="home-page">
+            <!--Botones de arriba -->
+            <div class="row">
+                <div class="col-3 col-md-2 d-none d-md-block img-container"
+                     style="margin-left: 15px; margin-right: 15px">
+                    <nav>
+                        <a href="./index.html" style="text-decoration: none; color: inherit; cursor: pointer">
+                            <img src="/vampire/assets/logo.png" alt="Your image description" class="img-fluid mb-4"
+                                 style="width: 250px; height: 120px"/>
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-6 col-md-2 buttons">
+                    <button type="button" class="btn btn-primary text-white custom-btn">
+                        <nav><a href="informacion.html"
+                                style="text-decoration: none; color: red !important;">Informacíon</a>
+                        </nav>
+                    </button>
+                </div>
+                <div class="col-6 col-md-2 buttons">
+                    <button type="button" class="btn btn-primary custom-btn">
+                        <nav>
+                            <a href="personajes.html" style="text-decoration: none; color: inherit">
+                                Personajes
+                            </a>
+                        </nav>
+                    </button>
+                </div>
+                <div class="col-6 col-md-2 buttons">
+                    <button type="button" class="btn btn-primary custom-btn">
+                        <nav>
+                            <a href="escenas.html" style="text-decoration: none; color: inherit">
+                                Escenas
+                            </a>
+                        </nav>
+                    </button>
+                </div>
+                <div class="col-6 col-md-2 buttons">
+                    <button type="button" class="btn btn-primary custom-btn">
+                        <nav>
+                            <a href="ships.html" style="text-decoration: none; color: inherit">
+                                Ships
+                            </a>
+                        </nav>
+                    </button>
+                </div>
+            </div>
+            <div id="carouselExample" class="carousel slide" style="margin-top: 50px">
+                <div class="carousel-inner" style="display: flex">
+                    <div class="carousel-item active" style="flex-direction: column">
+                        <!-- Elemento 1 del carousel                       -->
+                        <div class="title">
+                            <h3>Series derivadas</h3>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 video-carousel responsive-carousel"
+                             style="display: flex; justify-content: space-evenly">
+                            <div>
+                                <div class="img-container">
+                                    <img src="/vampire/assets/informacion/originales.jpg" alt="Your image description"
+                                         class="img-fluid mb-4"
+                                         style="max-width: 208px;">
+                                    <p class="img-texts">The Originals</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="img-container">
+                                    <img src="/vampire/assets/informacion/ellegado.jpg" alt="Your image description"
+                                         class="img-fluid mb-4"
+                                         style="max-width: 208px;">
+                                    <p class="img-texts">El Legado</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="img-container">
+                                    <img src="/vampire/assets/informacion/awakening.jpg" alt="Your image description"
+                                         class="img-fluid mb-4"
+                                         style="max-width: 208px;">
+                                    <p class="img-texts">Awakening</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="embed-responsive embed-responsive-16by9 video-carousel responsive-carousel"
+                             style="display: flex; justify-content: center; flex-direction: column">
+                            <!--Elemento 2 del carousel                            -->
+                            <div class="title">
+                                <h3>Datos curiosos que seguro no sabías:</h3>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 video-carousel"
+                                 style="display: flex; justify-content: space-evenly">
+                                <div>
+                                    <div class="img-container img-round">
+                                        <img src="/vampire/assets/informacion/ian.jpg" alt="Your image description"
+                                             class="img-fluid mb-4"
+                                             style="max-width: 208px; border-radius: 50%;">
+                                        <p class="img-texts">Ian Somerhalder</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="img-container">
+                                        <img src="/vampire/assets/informacion/nina.jpg" alt="Your image description"
+                                             class="img-fluid mb-4"
+                                             style="max-width: 208px; border-radius: 50%;">
+                                        <p class="img-texts">Nina Dobrev</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="img-container">
+                                        <img src="/vampire/assets/informacion/paul.jpeg" alt="Your image description"
+                                             class="img-fluid mb-4"
+                                             style="max-width: 208px; border-radius: 50%;">
+                                        <p class="img-texts">Paul Wesley</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    body {
+        background-image: radial-gradient(circle, #000000, #3533cd);
+        /* Adjust the gradient direction, colors and other properties as desired */
+        min-height: 100vh;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+
+    .btn {
+        width: 130px;
+    }
+
+    @media (max-width: 768px) {
+        .buttons {
+            margin-top: 20px;
+            margin-right: 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .carousel-inner {
+        position: relative;
+    }
+
+    .custom-btn {
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 30px;
+    }
+
+    .img-container {
+        margin-left: 15px;
+        margin-right: 15px
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        color: #FF914D;
+    }
+
+    .img-texts {
+        font-family: "PT Serif", serif;
+        font-size: 35px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+        .responsive-carousel {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .video-carousel {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+</style>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
